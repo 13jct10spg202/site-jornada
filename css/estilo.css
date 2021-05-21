@@ -79,6 +79,10 @@ header img{
   width:100%;
 }
 
+.sobre-evento .titulo{
+  font-size: 32px;
+}
+
 .div-imagem{
   width: 100vw;
   height: 100%;
