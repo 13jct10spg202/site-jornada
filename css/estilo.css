@@ -59,5 +59,38 @@ header img{
 }
 
 .instituicoes img{
-  width: 8rem;
+  /* width: 100vw; */
+}
+
+.transformacao {
+
+  background-image: url('../imagens/divs/transformacao.png');
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+
+.transformacao img{
+  margin: 2rem;
+}
+.sobre-evento{
+  background-color: white;
+  width:100%;
+}
+
+.div-imagem{
+  width: 100vw;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.cerebro{
+background-image: url('../imagens/divs/crebro.png');
 }
