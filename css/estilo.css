@@ -1,6 +1,10 @@
 html{
   height: 100%;
 }
+*{
+  margin:0;
+  padding: 0;
+}
 
 body{
   height:100%;
@@ -12,6 +16,9 @@ body{
 
 a{
   text-decoration: none;
+}
+.nav-item{
+  text-align: right;
 }
 
 .nav-link{
@@ -74,7 +81,7 @@ header img{
 .transformacao img{
   margin: 2rem;
 }
-.sobre-evento{
+.sobre-evento,.cronograma{
   background-color: white;
   width:100%;
 }
@@ -83,9 +90,14 @@ header img{
   font-size: 32px;
 }
 
+.sobre-evento img{
+  width: auto;
+  padding: 0;
+}
+
 .div-imagem{
   width: 100vw;
-  height: 100%;
+  height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
   
