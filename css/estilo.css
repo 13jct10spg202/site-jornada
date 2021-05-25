@@ -120,7 +120,7 @@ header img{
 #transformacao {
   background-image: url('../imagens/divs/transformacao.png');
   background-size: cover;
-  min-height: 80vw;
+
   /* display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -149,9 +149,14 @@ header img{
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  min-height: 70vw;
 }
 
 #cerebro{
 background-image: url('../imagens/divs/crebro.png');
-min-height: 70vw;
+
+}
+
+#logo{
+  background-color: #191919;
 }
