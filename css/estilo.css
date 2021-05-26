@@ -83,7 +83,7 @@ header{
 }
 
 header img{
-  width: 70vw;
+  width: 80vw;
 }
 
 .inscrevase{
@@ -111,7 +111,7 @@ header img{
 }
 
 .instituicoes img{
-  /* width: 100vw; */
+  width: 60%
 }
 
 /* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
@@ -152,11 +152,21 @@ header img{
   min-height: 70vw;
 }
 
+.div-imagem img{
+  width: 70%;
+}
+
 #cerebro{
 background-image: url('../imagens/divs/crebro.png');
+background-position: center center;
+background-size: 120%;
 
 }
 
 #logo{
   background-color: #191919;
+}
+
+#logo img{
+  width: 50%;
 }
