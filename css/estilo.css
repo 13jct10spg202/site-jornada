@@ -1,4 +1,14 @@
 /* Estilizações gerais do site */
+@font-face {
+   font-family: "Sofia Pro";
+   src: url("../fontes/Sofia-Pro-Light-Az.otf");
+}
+
+@font-face {
+  font-family: "Sofia Pro";
+  src: url("../fontes/Sofia-Pro-Bold-Az.otf");
+  font-weight: 600;
+}
 
 :root{
   --gradiente:linear-gradient(270deg, #1192C9 1.12%, #F20DB2 80.77%);
@@ -34,7 +44,7 @@ body{
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-image: var(--gradiente);
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Sofia Pro', sans-serif;
 }
 
 a{
@@ -177,6 +187,6 @@ background-size: 120%;
   width: 20%;
 }
 
-.palestrantes{
+.palestrantes,.comentarios{
   background-color: #fff;
 }
