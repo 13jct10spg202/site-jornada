@@ -103,14 +103,10 @@ header img{
 
 
 .inscrevase{
-  background-color: #fff;
+  background: linear-gradient(267.72deg, #2F80ED 0%, #77B1FF 99.98%);;
   margin: 1rem 0;
   padding: .5rem 2rem;
   transition: all .2s ease-out;
-}
-
-.inscrevase:hover{
-  background-color: #ddd;
 }
 
 .inscrevase:hover {
@@ -119,19 +115,9 @@ header img{
   
 }
 
-
-.inscrevase:hover .inscrevase-text{
-  background-image: var(--gradiente);
-  -webkit-background-clip: text;
-    color: transparent;
-}
-
 .inscrevase-text{
-  background-image: linear-gradient(270deg, #1192C9 1.12%, #F20DB2 80.77%);
-    -webkit-background-clip: text;
-    color: transparent;
-    font-weight: bold;
-  transition: background-image 1s ease-out;
+  color:white;
+  /* transition: background-image 1s ease-out; */
 }
 
 #titulo-header{
@@ -173,12 +159,21 @@ header img{
   width:100%;
 }
 
-.cronograma, .palestrantes,footer{
+.cronograma,footer{
   background-color: #232323 ;
 }
 
+.palestrantes{
+  background-color: #191919;
+}
+
+#palestrante{
+  background-color: #232323;
+}
+
 .titulo{
-  font-size: 32px;
+  font-size: 24px;
+  letter-spacing: 0.25rem;
 }
 
 .sobre-evento img{
@@ -284,13 +279,17 @@ animation-iteration-count: infinite;
 
 
 .cronometro .tempo{
-  min-width: 10rem;
-  min-height: 10rem;
-  background-color: rgba(0,0,0,0.5);
+  width: 7rem;
+  height: 7rem;
+  background-color: rgba(0,0,0,0.25);
   border-radius: 50%;
-  font-size: 80px;
+  font-size: 42px;
 }
 
 .cronometro .tempo p{
   margin-bottom: 0;
+}
+
+.tempo-p{
+  letter-spacing: 0.25em;
 }

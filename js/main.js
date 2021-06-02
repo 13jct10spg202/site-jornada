@@ -7,7 +7,7 @@
 
 
 // cronometro
-var DataLimite = new Date('Jan 1, 2022 00:00:00').getTime();
+var DataLimite = new Date('Jul 6, 2021 00:00:00').getTime();
 
 function CalculaTempo(){
   var agora = new Date().getTime(); // pegando o tempo de agora
