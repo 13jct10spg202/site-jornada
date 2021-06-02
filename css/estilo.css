@@ -113,11 +113,10 @@ header img{
   background-color: #ddd;
 }
 
-.inscrevase:hover,
-.inscrevase:focus {
-  box-shadow: 0 0.5em 0.5em -0.4em #1192C9;
-  /* transform: translateY(-0.25em); */
-  border: var(--gradiente);
+.inscrevase:hover {
+  box-shadow: 0 1em 0.5em -0.4em #1192C9;
+  transform: translateY(-0.25em);
+  
 }
 
 
@@ -135,8 +134,16 @@ header img{
   transition: background-image 1s ease-out;
 }
 
+#titulo-header{
+  margin-bottom: 15rem;
+}
+
+.instituicoes{
+  background-color: #000;
+}
+
 .instituicoes img{
-  width: 60%
+  max-height: 300px;
 }
 
 /* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
@@ -155,9 +162,19 @@ header img{
 .transformacao img{
   margin: 2rem;
 }
-.sobre-evento,.cronograma{
-  background-color: white;
+
+
+.sobre-evento{
+  color:white;
+  background: linear-gradient(0deg, #9446BA 0%, #000000 100%);
+}
+
+.sobre-evento{
   width:100%;
+}
+
+.cronograma, .palestrantes,footer{
+  background-color: #232323 ;
 }
 
 .titulo{
@@ -175,6 +192,7 @@ header img{
   align-items: center;
   justify-content: center;
   min-height: 70vw;
+  background: linear-gradient(0deg, #9446BA 0%, #232323 100%);
 }
 
 .div-imagem img{
@@ -196,7 +214,7 @@ background-size: 120%;
   width: 20%;
 }
 
-.palestrantes,.comentarios{
+.comentarios{
   background-color: #fff;
 }
 
@@ -263,3 +281,16 @@ animation-iteration-count: infinite;
 } 
 }
 /* end: Preloader */
+
+
+.cronometro .tempo{
+  min-width: 10rem;
+  min-height: 10rem;
+  background-color: rgba(0,0,0,0.5);
+  border-radius: 50%;
+  font-size: 80px;
+}
+
+.cronometro .tempo p{
+  margin-bottom: 0;
+}
