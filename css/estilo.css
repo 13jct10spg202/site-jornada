@@ -43,7 +43,7 @@ body{
   margin: 0;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-image: var(--gradiente);
+  background: linear-gradient(0deg, #9446BA 0%, #000000 100%);
   font-family: 'Sofia Pro', sans-serif;
   /* overflow: hidden; */
 }
@@ -292,4 +292,41 @@ animation-iteration-count: infinite;
 
 .tempo-p{
   letter-spacing: 0.25em;
+}
+
+#scrollBtn {
+  display: inline-block;
+  background-color: #F20DB2;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: background-color .3s, 
+    opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+#scrollBtn::after {
+  content: "\f077";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2em;
+  line-height: 50px;
+  color: #fff;
+}
+#scrollBtn:hover {
+  cursor: pointer;
+  background-color: #333;
+}
+#scrollBtn:active {
+  background-color: #555;
+}
+#scrollBtn.show {
+  opacity: 1;
+  visibility: visible;
 }

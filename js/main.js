@@ -1,12 +1,13 @@
-// //função que carrega o preloader
+//função que carrega o preloader
 // $(window).load(function () {
-//   $('#preloader .inner').fadeOut();
-//   $('#preloader').delay(350).fadeOut('slow'); 
-//   $('body').delay(350).css({'overflow': 'visible'});
+//   alert("aaaaaaa")
+//   // $('#preloader .inner').fadeOut();
+//   // $('#preloader').delay(350).fadeOut('slow'); 
+//   // $('body').delay(350).css({'overflow': 'visible'});
 // })
 
-
-// cronometro
+$(document).ready(function () {
+  // cronometro
 var DataLimite = new Date('Jul 6, 2021 00:00:00').getTime();
 
 function CalculaTempo(){
@@ -26,12 +27,31 @@ function CalculaTempo(){
     document.getElementById('dia').innerHTML = d;
     document.getElementById('horas').innerHTML = h;
     document.getElementById('minutos').innerHTML = m;
-    document.getElementById('segundos').innerHTML = s;
-
-
-    
+    document.getElementById('segundos').innerHTML = s;  
 }
-
 setInterval(function(){
   CalculaTempo();
 },1000)
+
+
+
+//botão de scroll para o topo
+$(window).scroll(function() {
+  if ($(window).scrollTop() > 300) {
+    
+    $('#scrollBtn').addClass('show');
+  } else {
+    $('#scrollBtn').removeClass('show');
+  }
+});
+
+$("#scrollBtn").click(function() {
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+  return false;
+});
+
+});
+
+
+
+
