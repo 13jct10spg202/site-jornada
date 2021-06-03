@@ -1,14 +1,5 @@
 /* Estilizações gerais do site */
-@font-face {
-   font-family: "Sofia Pro";
-   src: url("../fontes/Sofia-Pro-Light-Az.otf");
-}
-
-@font-face {
-  font-family: "Sofia Pro";
-  src: url("../fontes/Sofia-Pro-Bold-Az.otf");
-  font-weight: 600;
-}
+@font-face {font-family: "Helvetica Neue"; src: url("//db.onlinewebfonts.com/t/0d49fc455f4a8951a42daf952412a713.eot"); src: url("//db.onlinewebfonts.com/t/0d49fc455f4a8951a42daf952412a713.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/0d49fc455f4a8951a42daf952412a713.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/0d49fc455f4a8951a42daf952412a713.woff") format("woff"), url("//db.onlinewebfonts.com/t/0d49fc455f4a8951a42daf952412a713.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/0d49fc455f4a8951a42daf952412a713.svg#Helvetica Neue") format("svg"); }
 
 :root{
   --gradiente:linear-gradient(270deg, #1192C9 1.12%, #F20DB2 80.77%);
@@ -43,9 +34,9 @@ body{
   margin: 0;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background: linear-gradient(0deg, #9446BA 0%, #000000 100%);
-  font-family: 'Sofia Pro', sans-serif;
-  /* overflow: hidden; */
+  background: linear-gradient(0deg, #4A1564 0%, #000000 100%);
+  font-family: 'Helvetica Neue', sans-serif;
+  overflow: hidden;
 }
 
 a{
@@ -152,7 +143,7 @@ header img{
 
 .sobre-evento{
   color:white;
-  background: linear-gradient(0deg, #9446BA 0%, #000000 100%);
+  background: linear-gradient(0deg, #4A1564 0%, #000000 100%);
 }
 
 .sobre-evento{
