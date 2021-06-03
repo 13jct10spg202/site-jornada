@@ -339,3 +339,40 @@ animation-iteration-count: infinite;
   opacity: 1;
   visibility: visible;
 }
+
+
+/* estilo da animação dos elementos */
+.animacao-l{
+  opacity: 0;
+  transform: translate3d(-100px,0,0);
+  transition: .5s;
+}
+.animacao-r{
+  opacity: 0;
+  transform: translate3d(100px,0,0);
+  transition: .5s;
+}
+
+.animacao-t{
+  opacity: 0;
+  transform: translate3d(0,-50px,0);
+  transition: .5s;
+}
+
+.animacao-b{
+  opacity: 0;
+  transform: translate3d(0,50px,0);
+  transition: .5s;
+}
+
+.animacao-s{
+  opacity: 0;
+  transform: translate3d(0,0,100px);
+  transition: .5s;
+}
+
+
+.animacao-start{
+  opacity: 1;
+  transform: translate3d(0,0,0);
+}

@@ -51,4 +51,31 @@ $(document).ready(function () {
   //]]>
 
 
+
+  //fazendo animações para o site
+  var $target = $('.animacao-l, .animacao-t, .animacao-b, .animacao-r, .animacao-s'),
+      animacaoClass = 'animacao-start',
+      offset = $(window).height() * 3/4;
+
+  //função que fará os elementos aparecerem    
+  function animaScroll(){
+    var documentoTopo = $(document).scrollTop(); 
+
+    //para cada div que tenha animação
+    $target.each(function(){
+      var itemTopo = $(this).offset().top;
+      if(documentoTopo > itemTopo - offset){
+        $(this).addClass(animacaoClass);
+      }else{
+        $(this).removeClass(animacaoClass)
+      }
+    })
+  }
+
+  animaScroll();
+
+  $(document).scroll(function(){
+    animaScroll();
+  })
+
 });
