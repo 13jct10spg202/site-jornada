@@ -57,6 +57,23 @@ $(document).ready(function () {
       animacaoClass = 'animacao-start',
       offset = $(window).height() * 3/4;
 
+
+//debounce do lodash
+debounce = function(func,wait,immediate){
+  var timeOut;
+  return function(){
+    var context = this,args = arguments;
+    var later = function (){
+      timeOut = null;
+      if(!immediate) func.apply(context,args);
+    };
+    var callNow = immediate && !timeOut;
+    clearTimeout(timeOut);
+    timeOut = setTimeout(later,wait);
+    if(callNow) func.apply(context,args);
+  };
+}
+
   //função que fará os elementos aparecerem    
   function animaScroll(){
     var documentoTopo = $(document).scrollTop(); 
@@ -72,10 +89,12 @@ $(document).ready(function () {
     })
   }
 
+  // animaScroll();
   animaScroll();
-
-  $(document).scroll(function(){
+  $(document).scroll(debounce(function(){
     animaScroll();
-  })
+  },100));
+
+  
 
 });

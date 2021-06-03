@@ -69,7 +69,7 @@ a{
 /* Estilizações do menu */
 
 .navbar img{
-  scale: 2;
+  scale: .8;
 }
 
 .nav-item{
@@ -345,30 +345,30 @@ animation-iteration-count: infinite;
 .animacao-l{
   opacity: 0;
   transform: translate3d(-100px,0,0);
-  transition: .8s;
+  transition: .65s;
 }
 .animacao-r{
   opacity: 0;
   transform: translate3d(100px,0,0);
-  transition: .8s;
+  transition: .65s;
 }
 
 .animacao-t{
   opacity: 0;
   transform: translate3d(0,-50px,0);
-  transition: .8s;
+  transition: .65s;
 }
 
 .animacao-b{
   opacity: 0;
   transform: translate3d(0,50px,0);
-  transition: .8s;
+  transition: .65s;
 }
 
 .animacao-s{
   opacity: 0;
   transform: translate3d(0,0,100px);
-  transition: .8s;
+  transition: .65s;
 }
 
 
