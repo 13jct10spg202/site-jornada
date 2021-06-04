@@ -15,6 +15,10 @@
   .navbar-brand{
     margin-left: 0 !important;
 }
+  #topo{
+    background-position: 50% 80%;
+  }
+
 }
 
 
@@ -26,12 +30,13 @@
 /* media query para dispositivos que tenham até 480px (iphone) */
 @media screen and (max-device-width: 480px) {
   header h1{
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
   #titulo-header{
-    margin: 15rem 0;
-
-    
+    margin: 15rem 0; 
+  }
+  #titulo-header .btn{
+    margin-top: 3rem !important;
   }
 
   .navbar-brand{
@@ -70,6 +75,10 @@
 
   #palestrante p{
     margin-top: 12px;
+  }
+
+  #topo{
+    background-position: 50% 80%;
   }
 	
 }

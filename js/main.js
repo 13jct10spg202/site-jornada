@@ -55,7 +55,7 @@ $(document).ready(function () {
   //fazendo animações para o site
   var $target = $('.animacao-l, .animacao-t, .animacao-b, .animacao-r, .animacao-s'),
       animacaoClass = 'animacao-start',
-      offset = $(window).height() * 3/4;
+      offset = $(window).height() * .95;
 
 
 //debounce do lodash
