@@ -83,7 +83,7 @@ debounce = function(func,wait,immediate){
     //para cada div que tenha animação
     $target.each(function(){
       var itemTopo = $(this).offset().top;
-      if(documentoTopo > itemTopo - 700){
+      if(documentoTopo > itemTopo - offset){
         $(this).addClass(animacaoClass);
       }else{
         $(this).removeClass(animacaoClass)
