@@ -32,6 +32,8 @@
   header h1{
     font-size: 2.5rem;
   }
+
+  
   #titulo-header{
     margin: 15rem 0; 
   }
@@ -71,6 +73,7 @@
 
   #palestrante{
     padding: 12px;
+    margin:0 15px ;
   }
 
   #palestrante p{
