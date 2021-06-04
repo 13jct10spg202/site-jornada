@@ -86,7 +86,7 @@ debounce = function(func,wait,immediate){
       if(documentoTopo > itemTopo - offset){
         $(this).addClass(animacaoClass);
       }else{
-        $(this).removeClass(animacaoClass)
+        // $(this).removeClass(animacaoClass)
       }
     })
   }

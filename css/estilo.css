@@ -45,9 +45,10 @@ border-radius: 25px;
 body{
   height:100%;
   margin: 0;
+ 
+  background: linear-gradient(0deg, #4A1564 0%, #000000 100%);
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background: linear-gradient(0deg, #4A1564 0%, #000000 100%);
   overflow: hidden;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
