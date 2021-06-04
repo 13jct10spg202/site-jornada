@@ -18,6 +18,9 @@
   #topo{
     background-position: 50% 80%;
   }
+  .terra{
+    min-height: 30vh;
+  }
 
 }
 
@@ -82,6 +85,9 @@
 
   #topo{
     background-position: 50% 80%;
+  }
+  .terra{
+    min-height: 20vh;
   }
 	
 }

@@ -419,6 +419,32 @@ animation-iteration-count: infinite;
 }
 /* Estilos da pǵina de inscrição */
 
+#topo-2{
+  background-image: url("../imagens/divs/espaço.png");
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  background-size: 120%;
+}
+
+#topo-2 h1{
+  margin: 8rem 0 !important;
+}
+
+#topo-2 .espaco img{
+  -webkit-animation: MoveUpDown 1.5s linear infinite;
+}
+
+@-webkit-keyframes MoveUpDown {
+  from {
+      transform: translate3d(0,-50px,0);
+      opacity: 1;
+  }
+  to { 
+    transform: translate3d(0,50px,0);
+    opacity: 0;
+  }
+}
+
 .inscricao{
   background: linear-gradient(0deg, #4A1564 0%, #000000 100%);
 }
