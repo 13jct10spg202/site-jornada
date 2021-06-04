@@ -65,6 +65,9 @@ a{
 
 /* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
 
+.transparente{
+  color: rgba(255,255,255,0.5);
+}
 
 /* Estilizações do menu */
 
@@ -120,7 +123,7 @@ header h5{
 
 
 .inscrevase{
-  background: linear-gradient(267.72deg, #2F80ED 0%, #77B1FF 99.98%);;
+  background: linear-gradient(267.72deg, #2F80ED 0%, #77B1FF 99.98%);
   margin: 1rem 0;
   padding: .5rem 2rem;
   transition: all .2s ease-out;
@@ -408,4 +411,25 @@ animation-iteration-count: infinite;
 /* Configurações da Organização */
 .organizacao{
   background-color: #212121;
+}
+/* Estilos da pǵina de inscrição */
+
+.inscricao{
+  background: linear-gradient(0deg, #4A1564 0%, #000000 100%);
+}
+
+.card{
+  background: linear-gradient(267.72deg, #2F80ED 0%, #77B1FF 99.98%);
+  min-height: 180px ;
+  border-radius: 10px;
+  opacity: .7;
+  transition: all .5s ease-in;
+}
+.card h4{
+  opacity: 1;
+}
+
+.card:hover{
+  opacity: 1;
+  cursor: pointer;
 }
