@@ -42,6 +42,8 @@ border-radius: 25px;
   padding: 0;
 }
 
+.nowrap{white-space: nowrap;}
+
 body{
   height:100%;
   margin: 0;
@@ -423,7 +425,7 @@ animation-iteration-count: infinite;
   background-image: url("../imagens/divs/espaço.png");
   background-repeat: no-repeat;
   min-height: 100vh;
-  background-size: 120%;
+  background-size: 130%;
 }
 
 #topo-2 h1{

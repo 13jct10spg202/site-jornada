@@ -22,6 +22,18 @@
     min-height: 30vh;
   }
 
+  #topo-2 h1{
+    margin: 5rem 0 !important;
+  }
+
+  #topo-2{
+    min-height: 25vh !important;
+  }
+
+  #topo-2 .espaco .row .col{
+    margin: 2rem !important;
+  }
+
 }
 
 
@@ -90,4 +102,27 @@
     min-height: 20vh;
   }
 	
+
+  #topo-2{
+    background-image: url(../imagens/divs/14\ 2.png);
+    background-position: 50% 80%;
+    background-size: 200%;
+  }
+
+  #topo-2 h1{
+    font-size: 28px;
+  }
+
+  .inscricao h4{
+    font-size: 16px;
+  }
+
+
+  .inscricao h1{
+    font-size: 24px;
+  }
+
+  .card h4 {
+    font-size: 28px;
+  }
 }
