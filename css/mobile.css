@@ -1,0 +1,75 @@
+/* media query para dispositivos que tenham até 900px */
+@media screen and (min-width: 900px) {
+	
+}
+
+/* media query para dispositivos que tenham entre 600 e 900px */
+@media screen and (min-width: 600px) and (max-width: 900px) {
+  header h1{
+    font-size: 4rem;
+  }
+  #titulo-header{
+    margin: 15rem 0;
+  }
+
+  .navbar-brand{
+    margin-left: 0 !important;
+}
+}
+
+
+/* media query para dispositivos que tenham até 600px */
+@media screen and (max-width: 600px) {
+	
+}
+
+/* media query para dispositivos que tenham até 480px (iphone) */
+@media screen and (max-device-width: 480px) {
+  header h1{
+    font-size: 2rem;
+  }
+  #titulo-header{
+    margin: 15rem 0;
+
+    
+  }
+
+  .navbar-brand{
+      margin-left: 0 !important;
+  }
+  .navbar-brand img{
+    max-width: 70vw;
+  }
+
+  .sobre-evento .row{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  .instituicoes .container .row div{
+    justify-content: center !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  .cronometro .tempo{
+    width: 4rem;
+    height: 4rem;
+    font-size: 32px;
+  }
+  
+  .tempo-p{
+    font-size: 10px;
+  }
+
+  #palestrante{
+    padding: 12px;
+  }
+
+  #palestrante p{
+    margin-top: 12px;
+  }
+	
+}

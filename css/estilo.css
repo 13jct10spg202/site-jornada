@@ -105,9 +105,12 @@ svg{
   min-height: 100vh;
 }
 
-header img{
-  width: 40vw;
-  margin-top: 30vh;
+
+header h1{
+  font-size: 3.5rem;
+}
+#titulo-header{
+  margin: 15rem 0;
 }
 
 
@@ -129,9 +132,7 @@ header img{
   /* transition: background-image 1s ease-out; */
 }
 
-#titulo-header{
-  margin-bottom: 15rem;
-}
+
 
 .instituicoes{
   background-color: #000;
