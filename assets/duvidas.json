@@ -1,0 +1,109 @@
+{
+  "perguntas":[
+    {
+      "pergunta":"Até quando posso submeter trabalhos?",
+      "resposta":"O prazo final para submissão é 11 de julho de 2021."
+    },
+    {
+      "pergunta":"Quem pode submeter trabalhos aos eventos?",
+      "resposta":"13ª Jornada Científica e Tecnológica: estudantes de nível técnico e superior e pesquisadores. <br> 10º Simpósio de Pós-Graduação: estudantes e pesquisadores de Pós-Graduação Lato ou Stricto sensu."
+    },
+    {
+      "pergunta":"Qual é o valor da inscrição?",
+      "resposta":"A Jornada Científica e Tecnológica e o Simpósio de Pós-graduação do IFSULDEMINAS são eventos gratuitos. Não há cobrança de taxa de inscrição."
+    },
+    {
+      "pergunta":"Onde serão os eventos neste ano?",
+      "resposta":"Palestras, mesas de debates e apresentações de trabalhos serão realizadas totalmente ON-LINE, por meio de plataforma digital que será disponibilizada pela instituição após o período de submissões de resumos."
+    },
+    
+    {
+      "pergunta":"Como faço para submeter trabalhos?",
+      "resposta":"A submissão do trabalho (que deve ser elaborado de acordo com as normas para publicação) é feita exclusivamente por meio da plataforma eletrônica da Jornada Científica ou do Simpósio de Pós-Graduação."
+    },
+    {
+      "pergunta":"Esqueci de inserir os dados de um coautor, posso alterar?",
+      "resposta":"A alteração nos dados de autoria do trabalho somente será possível se o trabalho ainda não tiver sido avaliado."
+    },
+    {
+      "pergunta":"Caso o projeto ainda não esteja em avaliação siga os seguintes passos:",
+      "resposta":"Acesse a plataforma eletrônica do evento do qual vai participar (seja da Jornada ou do Simpósio) e, após login, vá até a opção 'Página do usuário'. Lá aparecerão as submissões ativas. Clique no local identificado como '1 ativa' (o número poderá variar de acordo com o número de trabalhos submetidos). Na próxima página clique sobre o título do trabalho. Na página seguinte você encontrará um espaço identificado como 'METADADOS DA SUBMISSÃO'. Clique em 'EDITAR METADADOS'. Na próxima página você encontrará a opção de 'INCLUIR AUTOR'."
+    },
+    {
+      "pergunta":"Posso enviar meu trabalho em língua estrangeira?",
+      "resposta":"Não. Somente serão aceitos trabalhos na língua portuguesa do Brasil."
+    },
+    {
+      "pergunta":"A submissão do trabalho (em formato de resumo expandido) por meio da plataforma eletrônica garante a participação no dia do evento?",
+      "resposta":"Não. O trabalho submetido será avaliado por especialista da área e, se aprovado, será apresentado no dia do evento. A inscrição para apresentar o trabalho deverá ser feita após o aceite."
+    },
+    {
+      "pergunta":"Posso publicar um relato de experiência na Jornada Científica ou no Simpósio da Pós-Graduação?",
+      "resposta":"Sim. É possível publicar um relato de experiência como resumo expandido na 13ª Jornada Científica e Tecnológica ou no 10º Simpósio da Pós-Graduação do IFSULDEMINAS. Os relatos de experiência devem atender aos mesmos requisitos dos demais trabalhos, de acordo com as diretrizes para autores."
+    },
+    {
+      "pergunta":"Se meu trabalho não for aceito, não posso participar no dia do evento?",
+      "resposta":"Pode sim. Nesse caso, você deve fazer a inscrição para participar do evento como “ouvinte”."
+    },
+    {
+      "pergunta":"Como eu faço a inscrição para participar nos dias dos eventos?",
+      "resposta":"As inscrições para participar dos eventos serão realizadas de 10 a 20 de outubro de 2021."
+    },
+    {
+      "pergunta":"Como entrou em contato com a equipe organizadora dos dois eventos?",
+      "resposta":"Somente por e-mail: nipe.passos@ifsuldeminas.edu.br. <br> Não serão fornecidas informações por telefone."
+    },
+    {
+      "pergunta":"Quem pode ser avaliador de trabalhos?",
+      "resposta":"Para a Jornada Científica e Tecnológica - servidores e profissionais com formação acadêmica nível de Pós-graduação / Especialização. <br> Para o Simpósio de Pós-Graduação - servidores e profissionais com formação acadêmica nível Mestrado ou superior. <br> A avaliação dos resumos é uma atividade voluntária (não remunerada)."
+    },
+    {
+      "pergunta":"Por que bolsistas CNPq e FAPEMIG do IFSULDEMINAS devem, obrigatoriamente, apresentar em formato oral?",
+      "resposta":"Possuímos cotas de bolsas junto ao CNPq e a FAPEMIG. Essas cotas de bolsas são distribuídas através de processo seletivo (edital). Para manutenção da cota, devemos realizar, anualmente, um evento, na forma de seminário/congresso ou similar, onde os bolsistas deverão apresentar sua produção científica (resultado da pesquisa) sob a forma oral. O desempenho do bolsista deve ser avaliado pelo Comitê Institucional do PIBIC (externo) com base nos resultados apresentados na Jornada e critérios do IFSULDEMINAS. É uma forma de acompanhamento do Programa Institucional de Iniciação Científica."
+    },
+    {
+      "pergunta":"Se eu publicar os resultados de minhas pesquisas na Jornada Científica do IFSULDEMINAS, poderei publicá-los posteriormente em outros meios?",
+      "resposta":"A publicação em outros meios dependerá das normas específicas de cada um."
+    },
+   
+    {
+      "pergunta":"Como ter acesso aos trabalhos apresentados nas edições anteriores?",
+      "resposta":"Os trabalhos publicados nas edições anteriores podem ser acessados na página dos Anais Eletrônicos dos eventos."
+    },
+    {
+      "pergunta":"Qual será o formato dos Anais da Jornada Científica e do Simpósio de Pós-Graduação?",
+      "resposta":"Os trabalhos aceitos e apresentados nos dois eventos são disponibilizados para o público em formato de Anais Eletrônicos."
+    },
+    {
+      "pergunta":"Quem tem direito ao certificado?",
+      "resposta":"Todos os inscritos e que estiverem presentes nos dias do evento têm direito ao certificado. Serão emitidos certificados de ouvintes e de apresentação de trabalhos. Durante a apresentação dos trabalhos, formulários de presença temporários serão disponibilizados para preenchimento e posterior emissão do certificado."
+    },
+    {
+      "pergunta":"Coautores e orientadores também recebem certificados?",
+      "resposta":"Não são emitidos certificados de coautoria ou de orientação.<u> O certificado será enviado apenas ao apresentador do trabalho</u> e constará os dados completos de autoria informados no momento da inscrição."
+    },
+    
+    {
+      "pergunta":"Quando meu certificado estará disponível?",
+      "resposta":"Cerca de 60 dias após o evento."
+    },
+    {
+      "pergunta":"Quantos trabalhos cada autor pode enviar?",
+      "resposta":"Não estabelecemos limite, entretanto, o autor deve considerar a viabilidade de apresentação nos dias dos eventos tendo em vista que as arguições podem ser simultâneas."
+    },
+    {
+      "pergunta":"Sobre coautores, quantos são permitidos? Eles recebem certificado também?",
+      "resposta":"Sugerimos que não ultrapasse 6 (seis) coautores, embora não seja proibido um número maior. O certificado será enviado apenas ao apresentador do trabalho e constará os dados completos de autoria informados no momento da inscrição - na plataforma."
+
+    },
+    {
+      "pergunta":"Onde encontrar os certificados da Jornada Científica e Tecnológica e Simpósio de Pós-Graduação?",
+      "resposta":"Os certificados são gerados automaticamente e ficarão disponíveis no link certificados."
+    },
+     {
+      "pergunta":"Um artigo científico já publicado pode ser submetido como resumo expandido para apresentação na Jornada Científica e Tecnológica do IFSULDEMINAS ou no Simpósio de Pós-Graduação?",
+      "resposta":"Não. Um dos requisitos avaliados na submissão de trabalhos à Jornada Científica do IFSULDEMINAS e ao Simpósio de Pós-Graduação é que o trabalho ainda não tenha sido publicado, nem esteja em consideração para publicação por outra conferência."
+    }
+    
+  ]
+}

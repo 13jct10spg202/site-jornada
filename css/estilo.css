@@ -133,10 +133,6 @@ header h5{
 #titulo-header{
   margin: 13rem 0;
 }
-.jornada{
-  background: linear-gradient(0deg, #4A1564 0%, #000000 100%);
-}
-
 
 .inscrevase{
   background: linear-gradient(267.72deg, #2F80ED 0%, #77B1FF 99.98%);
@@ -242,8 +238,8 @@ header h5{
   background: linear-gradient(0deg, #9446BA 0%, #191919 100%);
 }
 
-.div-imagem img{
-  width: 70%;
+.div-imagem h1{
+ font-size: 50px;
 }
 
 #cerebro{
