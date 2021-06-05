@@ -1,17 +1,22 @@
 /* Estilizações gerais do site */
 @font-face {
    font-family: "Sofia Pro";
-   src: url("../fontes/Sofia-Pro-Light-Az.otf");
+   src: url("../assets/fontes/Sofia-Pro-Light-Az.otf");
 }
 
 @font-face {
-  font-family: "Sofia Pro";
+  font-family: "Sofia Pro ";
   src: url("../fontes/Sofia-Pro-Bold-Az.otf");
   font-weight: 600;
 }
 
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("../assets/fontes/helvetica-neue.ttf");
+}
+
 /* Estilizações gerais do site */
-@font-face {font-family: "Helvetica Neue"; src: url("//db.onlinewebfonts.com/t/0d49fc455f4a8951a42daf952412a713.eot"); src: url("//db.onlinewebfonts.com/t/0d49fc455f4a8951a42daf952412a713.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/0d49fc455f4a8951a42daf952412a713.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/0d49fc455f4a8951a42daf952412a713.woff") format("woff"), url("//db.onlinewebfonts.com/t/0d49fc455f4a8951a42daf952412a713.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/0d49fc455f4a8951a42daf952412a713.svg#Helvetica Neue") format("svg"); }
+/* @font-face {font-family: "Helvetica Neue"; src: url("//db.onlinewebfonts.com/t/0d49fc455f4a8951a42daf952412a713.eot"); src: url("//db.onlinewebfonts.com/t/0d49fc455f4a8951a42daf952412a713.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/0d49fc455f4a8951a42daf952412a713.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/0d49fc455f4a8951a42daf952412a713.woff") format("woff"), url("//db.onlinewebfonts.com/t/0d49fc455f4a8951a42daf952412a713.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/0d49fc455f4a8951a42daf952412a713.svg#Helvetica Neue") format("svg"); } */
 
 
 :root{
@@ -24,7 +29,7 @@ html{
 }
 
 html::-webkit-scrollbar {
-  width: 5px; 
+  width: 8px; 
 }
 
 html::-webkit-scrollbar-track {
@@ -43,7 +48,7 @@ border-radius: 25px;
 }
 
 .nowrap{white-space: nowrap;}
-
+.btn{white-space:normal;}
 body{
   height:100%;
   margin: 0;
@@ -52,12 +57,13 @@ body{
   background-repeat: no-repeat;
   background-attachment: fixed;
   overflow: hidden;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
+  font-family: 'Helvetica Neue', sans-serif;
+
 }
 
-a{
+a:hover, a:visited, a:link, a:active{
   text-decoration: none;
+  color: #fff;
 }
 
 .sofia{
@@ -126,6 +132,9 @@ header h5{
 
 #titulo-header{
   margin: 13rem 0;
+}
+.jornada{
+  background: linear-gradient(0deg, #4A1564 0%, #000000 100%);
 }
 
 
@@ -451,18 +460,18 @@ animation-iteration-count: infinite;
   background: linear-gradient(0deg, #4A1564 0%, #000000 100%);
 }
 
-.card{
+.card-site{
   background: linear-gradient(267.72deg, #2F80ED 0%, #77B1FF 99.98%);
   min-height: 180px ;
   border-radius: 10px;
   opacity: .7;
   transition: all .5s ease-in;
 }
-.card h4{
+.card-site h4{
   opacity: 1;
 }
 
-.card:hover{
+.card-site:hover{
   opacity: 1;
   cursor: pointer;
 }
@@ -482,3 +491,27 @@ animation-iteration-count: infinite;
   background-position: 50% 0;
 }
 
+/* Estilos da página de dúvidas */
+.card{
+  border: none;
+  border-radius: 10px;
+}
+
+.card-header{
+  padding: .5rem !important;
+}
+
+.card .pergunta{
+  background: linear-gradient(267.72deg, #2F80ED 0%, #77B1FF 99.98%);
+  min-height: 110px ;
+  border-radius: 10px;
+}
+ .card .btn-link:hover{
+   text-decoration: none;
+   
+ }
+
+
+.card .pergunta h5 button{
+  font-size: 1.25rem !important;
+}
