@@ -29,7 +29,7 @@ html{
 }
 
 html::-webkit-scrollbar {
-  width: 8px; 
+  width: 7px; 
 }
 
 html::-webkit-scrollbar-track {
@@ -141,7 +141,13 @@ header h5{
   transition: all .2s ease-out;
 }
 
-.inscrevase:hover {
+.inscrevase2{
+  background: linear-gradient(267.72deg, #2F80ED 0%, #77B1FF 99.98%);
+  padding: .25rem 1rem;
+  transition: all .2s ease-out;
+}
+
+.inscrevase2:hover,.inscrevase:hover {
   box-shadow: 0 1em 1.5em -0.4em #77b2ff81;
   transform: translateY(-0.25em);
   
@@ -510,4 +516,10 @@ animation-iteration-count: infinite;
 
 .card .pergunta h5 button{
   font-size: 1.25rem !important;
+}
+
+/* Estilização da página de downlaod */
+
+.download .coruja{
+  font-size: 20px;
 }
