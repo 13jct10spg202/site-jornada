@@ -121,6 +121,10 @@ svg{
   min-height: 100vh;
 }
 
+.texto-azul{
+  color: #2F80ED;
+}
+
 
 header h1{
   font-size: 4.5rem;
@@ -139,6 +143,7 @@ header h5{
   margin: 1rem 0;
   padding: .5rem 2rem;
   transition: all .2s ease-out;
+  border: none;
 }
 
 .inscrevase2{
