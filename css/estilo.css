@@ -203,8 +203,12 @@ header h5{
 }
 
 /* configurações do cronograma */
+footer{
+  background-color: #191919;
+}
 
-.cronograma,footer{
+
+.cronograma{
   background-color: #232323 ;
 }
 
