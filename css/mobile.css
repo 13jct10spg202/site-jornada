@@ -34,6 +34,11 @@
     margin: 2rem !important;
   }
 
+  .organizacao .row .col-md-6{
+   align-items: flex-start !important;
+   
+  }
+
 }
 
 
@@ -125,4 +130,9 @@
   .card-site h4 {
     font-size: 28px;
   }
+
+  .organizacao .row .col-md-6{
+    align-items: flex-start !important;
+    margin-top: 1rem;
+   }
 }
