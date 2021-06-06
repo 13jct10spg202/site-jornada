@@ -483,53 +483,16 @@ animation-iteration-count: infinite;
 /* pagina de normas de envio */
 
 .normas .container {
-  position: relative;
   background-color: #f1f1f1;
   border-radius: 15px;
   box-shadow: 0px -36px 21px rgba(0, 0, 0, 0.49);
-  margin-top: 30vh;
 }
 
 .terra{
-  position: relative;
- 
-}
-
-.terra img{
-  transform-origin: center;
-
-  -webkit-animation:animcaoTerra 35s linear infinite;
-  -moz-animation:animcaoTerra 35s linear infinite;
-  animation:animcaoTerra 35s linear infinite;
-}
-
-.responsive{
-  max-width:100%;
-  /* max-height:100%; */
-}
-
-.center{
-  position: absolute;
-  top: 30%;
-  left: 50%; 
-  transform: translate(-50%, 10%);
-}
-
-
-parent{
-  position: relative;
-}
-
-@keyframes animcaoTerra {
-  0%{
-    transform: rotate(0deg) ; 
-    -webkit-transform: rotate(0deg)  ;
-  }
-  100%{
-
-    transform: rotate(360deg)  ;
-    -webkit-transform: rotate(360deg)  ;
-  }
+  background-image: url("../imagens/divs/Earth.png");
+  min-height: 45vh;
+  background-repeat: no-repeat;
+  background-position: 50% 0;
 }
 
 /* Estilos da página de dúvidas */
