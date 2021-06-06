@@ -135,4 +135,8 @@
     align-items: flex-start !important;
     margin-top: 1rem;
    }
+
+   footer .col-md-12{
+    align-items: flex-start;
+   }
 }

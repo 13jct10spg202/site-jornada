@@ -15,10 +15,6 @@
   src: url("../assets/fontes/helvetica-neue.ttf");
 }
 
-/* Estilizações gerais do site */
-/* @font-face {font-family: "Helvetica Neue"; src: url("//db.onlinewebfonts.com/t/0d49fc455f4a8951a42daf952412a713.eot"); src: url("//db.onlinewebfonts.com/t/0d49fc455f4a8951a42daf952412a713.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/0d49fc455f4a8951a42daf952412a713.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/0d49fc455f4a8951a42daf952412a713.woff") format("woff"), url("//db.onlinewebfonts.com/t/0d49fc455f4a8951a42daf952412a713.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/0d49fc455f4a8951a42daf952412a713.svg#Helvetica Neue") format("svg"); } */
-
-
 :root{
   --gradiente:linear-gradient(270deg, #1192C9 1.12%, #F20DB2 80.77%);
 }
