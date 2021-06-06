@@ -211,6 +211,10 @@ header h5{
   letter-spacing: 0.25rem;
 }
 
+.font-12{
+  font-size: 12px;
+}
+
 /* Configurações de palestrantes  */
 
 .palestrantes{
@@ -465,19 +469,19 @@ animation-iteration-count: infinite;
 }
 
 .card-site{
-  background: linear-gradient(267.72deg, #2F80ED 0%, #77B1FF 99.98%);
+  background: linear-gradient(267.72deg, #2f81ed83 0%, #77b2ff81 99.98%);
   min-height: 180px ;
   border-radius: 10px;
-  opacity: .7;
-  transition: all .5s ease-in;
+  transition: all .5s ease-in-out;
 }
 .card-site h4{
   opacity: 1;
 }
 
 .card-site:hover{
-  opacity: 1;
   cursor: pointer;
+  background: linear-gradient(267.72deg, #2f81ed 0%, #77b2ff 99.98%);
+
 }
 
 /* pagina de normas de envio */
