@@ -545,3 +545,24 @@ animation-iteration-count: infinite;
  width: 100%;
  font-weight: 300;
 }
+
+.areas-tematicas .row{
+  min-height: 300px;
+}
+
+.descricaoarea{
+  border-radius: 10px;
+  border:2px solid #1192C9 ;
+  height: 100%;
+  width: 100%;
+}
+
+.descricaoarea .area-titulo{
+  border-top:none !important;
+  border-right:none !important;
+  border-left:none !important;
+}
+
+.descricaoarea ul li{
+  font-size: 14px;
+}
