@@ -1,0 +1,185 @@
+{
+  "areas":[
+    {
+      "area":"Adminitração"
+    },
+    {
+      "area":"Agronomia",
+      "subareas":[
+        "Agrometeorologia",
+        "Ciência do Solo",
+        "Entomologia",
+        "Extensão Rural e Agroecologia",
+        "Fisiologia Vegetal", 
+        "Fitopatologia",
+        "Fitotecnia - Cultu. Anuais", 
+        "Fitotecnia - Cultu. Perenes"
+      ]
+    },
+    {
+      "area":"Arquitetura e Urbanismo"
+    },
+    {
+      "area":"artes"
+    },
+    {
+      "area":"Biologia Geral"
+    },
+    {
+      "area":"Botânica"
+    },
+    {
+      "area":"Ciência da Computação"
+    },
+    {
+      "area":"Ciência da Informação"
+    },
+    {
+      "area":"Ciência e Tec. de AlimentoS"
+    },
+    {
+      "area":"Demografia"
+    },
+    {
+      "area":"Ecologia e Meio Ambiente"
+    },
+    {
+      "area":"Economia"
+    },
+    {
+      "area":"Educação",
+    "subareas":[
+      "Curriculos específicos para níveis e tipos de cursos/ Orientação e Aconselhamento", 
+      "Ética, direitos humanos e cidadania","Fundamentos da Educação","Gestão, Planejamento, Avaliação e Políticas pùblicas Educacionais", 
+      "Metodologias, práticas e avaliação do processo de ensino-aprendizagem",
+      "Pŕaticas de Inclusão Escolar e Educação Especial",
+      "Tecnologias da Informação e Comunicação aplicadas à Educação",
+      "Tópicos Específicos da Educação"  
+    ]
+    },
+    {
+      "area":"Educação Física"
+    },
+    {
+      "area":"Edu. Profissional e Tecnológica"
+    },
+    {
+      "area":"Enfermagem"
+    },
+    {
+      "area":"Medicina"
+    },
+    {
+      "area":"Odontologia"
+    },
+    {
+      "area":"Farmácia"
+    },
+    {
+      "area":"Nutrição Humana"
+    },
+    {
+      "area":"Psicologia"
+    },
+    {
+      "area":"Engenharia Agrícola"
+    },
+    {
+      "area":"Engenharia Civil"
+    },
+    {
+      "area":"Eng. de Agrimensura e Cartográfica"
+    },
+    {
+      "area":"Engenharia de Produção"
+    },
+    {
+      "area":"Engenharia Química"
+    },
+    {
+      "area":"Engenharia Sanitária"
+    },
+    {
+      "area":"Filosofia"
+    },
+    {
+      "area":"Sociologia"
+    },
+    {
+      "area":"Ciência Política"
+    },
+    {
+      "area":"Antropologia"
+    },
+    {
+      "area":"Arqueologia"
+    },
+    {
+      "area":"História"
+    },
+    {
+      "area":"Teologia"
+    },
+    {
+      "area":"Física, ens. de física e Astronomia"
+    },
+    {
+      "area":"Fisioterapia Ocupacional"
+    },
+    {
+      "area":"Geografia / Geociências"
+    },
+    {
+      "area":"LEtras e Linguística"
+    },
+    {
+      "area":"Outras Engenharias",
+      "subareas":[
+        "Minas",
+        "Materiais e Metalúrgia",
+        "Nuclear",
+        "Naval",
+        "Oceânica",
+        "Aeroespacial",
+        "Biomédica",
+        "Mecânica",
+        "Transportes",
+        "Elétrica"
+      ]
+    },
+    {
+      "area":"Matemática e ens. da Matemática"
+    },
+    {
+      "area":"Medicina Veterinária"
+    },
+    {
+      "area":"Química e ens. de Química"
+    },
+    {
+      "area":"Recursos Florestais e Engenharia Florestal"
+    },
+    {
+      "area":"Plan. Urbano e Regional"
+    },
+    {
+      "area":"Probabilidade e Estatística"
+    },
+    {
+      "area":"Segurança do Trabalho"
+    },
+    {
+      "area":"Zoologia"
+    },
+    {
+      "area":"Zootecnia"
+    }
+
+
+    
+
+
+
+    
+  ]
+}
