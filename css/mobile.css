@@ -137,6 +137,6 @@
    }
 
    footer .col-md-12{
-    align-items: flex-start;
+    align-items: flex-start !important;
    }
 }
