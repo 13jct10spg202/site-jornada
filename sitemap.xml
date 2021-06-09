@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://dinamous.github.io/Jornada-Cientifica/</loc>
+  <lastmod>2021-06-08T00:03:30+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://dinamous.github.io/Jornada-Cientifica/pages/downloads.html</loc>
+  <lastmod>2021-06-08T00:03:30+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dinamous.github.io/Jornada-Cientifica/pages/normas.html</loc>
+  <lastmod>2021-06-08T00:03:30+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dinamous.github.io/Jornada-Cientifica/pages/duvidas.html</loc>
+  <lastmod>2021-06-08T00:03:30+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dinamous.github.io/Jornada-Cientifica/index.html</loc>
+  <lastmod>2021-06-08T00:03:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dinamous.github.io/Jornada-Cientifica/assets/modelos-para-downlaod/Modelo_Resumo_%20Jornada%20e%20Simp%C3%B3sio%202021.docx</loc>
+  <lastmod>2021-06-08T00:03:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dinamous.github.io/Jornada-Cientifica/assets/modelos-para-downlaod/Modelo_Slide_Jornada_2021.pptx</loc>
+  <lastmod>2021-06-08T00:03:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>

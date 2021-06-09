@@ -1,0 +1,6 @@
+User-agent: *
+	Disallow: /js/
+	Disallow: /assets/fontes
+  Disallow: /assets/modelos-para-download
+  Disallow: /imagens
+  Disallow: /pages/exemplo.html
