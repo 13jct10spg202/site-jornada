@@ -3,17 +3,20 @@
 @font-face {
 	font-family: "Sofia Pro";
 	src: url("../assets/fontes/Sofia-Pro-Light-Az.otf");
+	font-display: swap;
 }
 
 @font-face {
 	font-family: "Sofia Pro ";
 	src: url("../fontes/Sofia-Pro-Bold-Az.otf");
 	font-weight: 600;
+	font-display: swap;
 }
 
 @font-face {
 	font-family: "Helvetica Neue";
 	src: url("../assets/fontes/helvetica-neue.ttf");
+	font-display: swap;
 }
 
 :root {
