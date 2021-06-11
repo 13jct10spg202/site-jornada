@@ -577,7 +577,7 @@ footer {
 	min-height: 300px;
 }
 
-.descricaoarea {
+.descricaoarea,#cronograma-datas {
 	border-radius: 10px;
 	border: 2px solid #1192C9;
 	height: 100%;
@@ -592,4 +592,15 @@ footer {
 
 .descricaoarea ul li {
 	font-size: 14px;
+}
+
+
+/* estilo da página cronograma */
+#cronograma-datas .crono .row{
+	border-top: 2px solid #1192c9;
+}
+
+
+#cronograma-datas .crono .crono-primeiro{
+	border: none;
 }
