@@ -39,6 +39,10 @@
    
   }
 
+  .navbar-brand, .navbar-brand img{
+    margin: 0 !important;
+  }
+
 }
 
 
@@ -145,5 +149,14 @@
 
    footer .col-md-12{
     align-items: flex-start !important;
+   }
+
+   .organizacao .row .col-md-6{
+    align-items: flex-start !important;
+    
+   }
+ 
+   .navbar-brand, .navbar-brand img{
+     margin: 0 !important;
    }
 }
