@@ -132,8 +132,8 @@ svg {
 	color: #2F80ED;
 }
 
-header h1 {
-	font-size: 4.5rem;
+header p#titulo {
+	font-size: 3.5rem;
 }
 
 header p {
