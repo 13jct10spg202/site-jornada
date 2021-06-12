@@ -68,7 +68,7 @@
     <div id="navbarCollapse" class="collapse navbar-collapse justify-content-start">
       <div class="navbar-nav ml-auto mr-5">
         <p class="nav-item nav-link text-white active font-weight-bold">Início</p>
-        <!-- <a href="./pages/sobreevento.html" class="nav-item nav-link text-white">Sobre o Evento</a> -->
+        <a href="#sobre-evento" class="nav-item nav-link text-white smooth-goto">Sobre o Evento</a>
         <!-- <a href="Participantes" class="nav-item nav-link text-white">Participantes</a> -->
         <a href="./pages/cronograma.html" class="nav-item nav-link text-white">Cronograma</a>
         <a href="./pages/downloads.html" class="nav-item nav-link text-white">Download</a>
@@ -122,7 +122,7 @@
   </div>
 </div>
 
-  <div class="sobre-evento py-5 ">
+  <div class="sobre-evento py-5 " id="sobre-evento">
     <div class="container py-5">
       <div class="row d-flex justify-content-center">
         <div class="col-lg-7">
@@ -349,6 +349,12 @@
 
   <script type="text/javascript">
  
+ $('.smooth-goto').on('click', function() {  
+    $('html, body').animate({scrollTop: $(this.hash).offset().top}, 1000);
+    return false;
+});
+
+
     // cronometro
   var DataLimite = new Date("Jul 11, 2021 00:00:00").getTime();
 
