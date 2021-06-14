@@ -57,9 +57,12 @@
     font-size: 2.5rem;
   }
 
+  .navbar{
+    padding-top: 1rem !important;
+  }
   
   #titulo-header{
-    margin: 15rem 0; 
+    margin: 10rem 0; 
   }
   #titulo-header .btn{
     margin-top: 3rem !important;
@@ -70,6 +73,11 @@
   }
   .navbar-brand img{
     max-width: 70vw;
+  }
+
+  header p#titulo{
+    line-height: 90%;
+    font-size: 3rem;
   }
 
   .sobre-evento .row{
@@ -158,5 +166,9 @@
  
    .navbar-brand, .navbar-brand img{
      margin: 0 !important;
+   }
+
+  h1, .h1{
+     font-size: 1.8rem !important;
    }
 }
