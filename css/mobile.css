@@ -43,6 +43,10 @@
     margin: 0 !important;
   }
 
+  .organizacao .row .comissao, .organizacao .row .comissao div  {
+    padding-left: 0 !important;
+  }
+
 }
 
 
@@ -154,6 +158,14 @@
     align-items: flex-start !important;
     margin-top: 1rem;
    }
+
+   .organizacao .row .comissao  {
+    padding-left: 1rem !important;
+  }
+
+  .organizacao .row .comissao div {
+    padding-left: 0 !important;
+  }
 
    footer .col-md-12{
     align-items: flex-start !important;
