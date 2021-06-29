@@ -1,7 +1,7 @@
 {
   "areas":[
     {
-      "area":"Adminitração"
+      "area":"Administração"
     },
     {
       "area":"Agronomia",
@@ -49,7 +49,7 @@
     {
       "area":"Educação",
     "subareas":[
-      "Curriculos específicos para níveis e tipos de cursos/ Orientação e Aconselhamento", 
+      "Currículos específicos para níveis e tipos de cursos/ Orientação e Aconselhamento", 
       "Ética, direitos humanos e cidadania","Fundamentos da Educação","Gestão, Planejamento, Avaliação e Políticas pùblicas Educacionais", 
       "Metodologias, práticas e avaliação do processo de ensino-aprendizagem",
       "Pŕaticas de Inclusão Escolar e Educação Especial",

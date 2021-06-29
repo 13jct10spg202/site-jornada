@@ -16,11 +16,13 @@ $(document).ready(function () {
 
   //Animação de preloader no site
   //<![CDATA[
-  $(window).on('load', function () {
+  // $(window).on('load', function () {
+  setTimeout(function(){
     $('#preloader .inner').fadeOut();
     $('#preloader').delay(350).fadeOut('slow'); 
     $('body').delay(350).css({'overflow': 'visible'});
-  })
+  // })
+}, 100);
   //]]>
 
 
