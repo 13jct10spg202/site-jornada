@@ -509,7 +509,7 @@ footer {
 }
 
 .card-site:hover {
-	cursor: pointer;
+	cursor: help;
 	background: linear-gradient(267.72deg, #2f81ed 0%, #77b2ff 99.98%);
 }
 
@@ -604,3 +604,4 @@ footer {
 #cronograma-datas .crono .crono-primeiro{
 	border: none;
 }
+

@@ -47,6 +47,10 @@
     padding-left: 0 !important;
   }
 
+  .titulo-video{
+    padding-left: 0 !important;
+  }
+
 }
 
 
@@ -183,4 +187,8 @@
   h1, .h1{
      font-size: 1.8rem !important;
    }
+
+   .titulo-video{
+    padding-left: 0 !important;
+  }
 }
