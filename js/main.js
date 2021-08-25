@@ -1,5 +1,10 @@
 $(document).ready(function () {
 
+  $(window).on('load', function() {
+    $('#modal').modal('show');
+    console.log("abre modal")
+});
+
   //botão de scroll para o topo
   $(window).scroll(function () {
     if ($(window).scrollTop() > 300) {
@@ -21,7 +26,7 @@ $(document).ready(function () {
     $('#preloader .inner').fadeOut();
     $('#preloader').delay(350).fadeOut('slow'); 
     $('body').delay(350).css({'overflow': 'visible'});
-    $('#modal').modal('show');
+    
   // })
 }, 100);
   //]]>
