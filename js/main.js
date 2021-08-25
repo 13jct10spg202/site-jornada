@@ -1,9 +1,11 @@
+$(window).on('load', function() {
+  $('#modal').modal('show');
+  console.log("abre modal")
+});
+
 $(document).ready(function () {
 
-  $(window).on('load', function() {
-    $('#modal').modal('show');
-    console.log("abre modal")
-});
+  
 
   //botão de scroll para o topo
   $(window).scroll(function () {
