@@ -605,3 +605,26 @@ footer {
 	border: none;
 }
 
+.modal-content{
+	border: 1px solid #cd60ff;
+}
+
+.modal-header{
+	border-bottom-color: #d68cf8;
+}
+
+.modal-body,.modal-header
+{
+	background-color: #191919 !important;
+	color:white !important;
+	
+}
+
+.modal-header span{
+	color: #FFF !important;
+}
+
+.close{
+	font-size: 2rem;
+	opacity: .8;
+}
