@@ -4,9 +4,6 @@ $(window).on('load', function() {
 });
 
 $(document).ready(function () {
-
-  
-
   //botão de scroll para o topo
   $(window).scroll(function () {
     if ($(window).scrollTop() > 300) {
