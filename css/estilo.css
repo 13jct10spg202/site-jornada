@@ -129,7 +129,7 @@ svg {
 }
 
 .texto-azul {
-	color: #2F80ED;
+	color: #2F80ED !important;
 }
 
 header p#titulo {
@@ -627,4 +627,8 @@ footer {
 .close{
 	font-size: 2rem;
 	opacity: .8;
+}
+
+.img2{
+	max-width: 10vw;
 }
