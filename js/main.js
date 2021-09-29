@@ -1,7 +1,8 @@
-$(window).on('load', function() {
-  $('#modal').modal('show');
-  console.log("abre modal")
-});
+/* Modal do comunicado importante */
+// $(window).on('load', function() {
+//   $('#modal').modal('show');
+//   console.log("abre modal")
+// });
 
 $(document).ready(function () {
   //botão de scroll para o topo
@@ -29,9 +30,6 @@ $(document).ready(function () {
   // })
 }, 100);
   //]]>
-
-
-
 
 
   //fazendo animações para o site

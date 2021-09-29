@@ -95,7 +95,7 @@
           <p class="mt-3 h5">25 a 29 de Outubro. Evento Online e Gratuito.</p>
           <button type="button" class="btn  btn-lg inscrevase mt-3"
             onclick="window.location.href='./pages/inscrevase.html'">
-            <span class="inscrevase-text font-weight-bold sofia">ÁREA DO AUTOR/AVALIADOR</span>
+            <span class="inscrevase-text font-weight-bold sofia">ÁREA DE INSCRIÇÃO</span>
           </button>
         </div>
       </div>
@@ -155,17 +155,17 @@
       <div class="row  animacao-t">
         <div class="col-lg-6 col-md-10 col-sm-12 d-flex flex-column justify-content-center align-items-center">
           <p class="h1 text-center pb-5">Quem é nosso público-alvo?</p>
-          <p class="text-center transparente">Estudantes de nível técnico e superior e pesquisadores fazem parte da
+          <p class="text-left transparente">Estudantes de nível técnico e superior e pesquisadores fazem parte da
             Jornada Cíentífica e Tecnológica.</p>
           <p class="transparente text-center">*</p>
-          <p class="text-center transparente">Estudantes e pesquisadores de Pós-Graduação Lato ou Stricto Sensu fazem
+          <p class="text-left transparente">Estudantes e pesquisadores de Pós-Graduação Lato ou Stricto Sensu fazem
             parte do Simpósio de Pós-Graduação.</p>
         </div>
         <div class="col-lg-6 col-md-10 col-sm-12 d-flex flex-column  align-items-center">
           <p class=" h1 pb-5">Enriqueça seu currículo</h2>
-          <p class="transparente">Valores e habilidades competentes que aumentarão suas chances de conseguir um bom
+            <p class="transparente ml-5">Valores e habilidades competentes que aumentarão suas chances de conseguir um bom
             plano de carreira.</p>
-        </div>
+          </div>
       </div>
 
     </div>
@@ -184,17 +184,21 @@
     <div class="container pt-5 pb-5">
       <div class="row justify-content-center pt-5 pb-5">
         <div class="col-12 d-flex flex-column align-self-center text-center animacao-t">
-         <h2>Não perca o período de inscrições para participar do evento! </h2>
-         <h2>As inscrições de participante iniciarão em: </h2>
+         <h2>Atente-se ao período de inscrições para participar do evento!</h2>
+         <h2>As inscrições de participantes se encerraram em:</h2>
          <div class=" row  cronometro justify-content-center mt-5 ">
-           <div class="col-lg-8 col-md-9 col-sm-9 d-flex  align-items-center justify-content-center">
+           
+          <div class="col-lg-8 col-md-9 col-sm-9 d-flex  align-items-center justify-content-center">
             <div class="row justify-content-around">
+              
               <div class="col-2 px-4 d-flex flex-column align-items-center">
+                
                 <div class="tempo text-center d-flex align-items-center justify-content-center" id="dia">
                   <p>00</p>
                 </div>
                 <p class="font-weight-bold mt-3 tempo-p sofia">DIAS</p>
-               </div>
+              
+              </div>
               <div class="col-2 px-4 d-flex flex-column align-items-center">
                 <div class="tempo text-center d-flex align-items-center justify-content-center" id="horas">
                   <p>00</p>
@@ -213,10 +217,20 @@
                 </div>
                 <p class="font-weight-bold mt-3 tempo-p sofia">SEGUNDOS</p>
                </div>
-             </div>
+            
+          
             </div>
-           
-          </div>           
+          </div>
+          
+        </div>           
+        <span class="transparente">até 11/10/2021</span>
+        <div>
+          <button type="button" class="btn  btn-lg inscrevase mt-5"
+              onclick="window.location.href='./pages/inscrevase.html'">
+              <span class="inscrevase-text font-weight-bold sofia">ÁREA DE INSCRIÇÃO</span>
+          </button>
+        </div>
+
       </div>
     </div>
 
@@ -526,7 +540,7 @@
 
 
   // cronometro
-  var DataLimite = new Date("Sep 20, 2021 23:59:59").getTime();
+  var DataLimite = new Date("Oct 11, 2021 23:59:59").getTime();
 
   function CalculaTempo() {
     var agora = new Date().getTime(); // pegando o tempo de agora
