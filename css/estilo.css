@@ -160,6 +160,8 @@ header p {
 	font-size: 18px;
 }
 
+
+
 .inscrevase2:hover,
 .inscrevase:hover {
 	box-shadow: 0 1em 1.5em -0.4em #77b2ff81;
@@ -230,7 +232,7 @@ footer {
 
 /* Configurações de palestrantes  */
 
-.palestrantes {
+/* .palestrantes {
 	background-color: #191919;
 }
 
@@ -241,7 +243,7 @@ footer {
 
 #palestrante img {
 	border-radius: 10px;
-}
+} */
 
 .titulo {
 	font-size: 18px;
