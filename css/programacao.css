@@ -51,7 +51,7 @@
     margin-right: 4rem;
 }
 
-
+/* Programação */
 .data-hora{
     max-width: 250px;
     max-height: 30px;
@@ -71,6 +71,26 @@
     border-top-left-radius: 7px;
 
 }
+/* 
+.assista{
+    max-width: 250px;
+    max-height: 30px;
+    
+    padding: .4em .5em 2em .5em;
+
+    text-align: center;
+    color: #050505;
+
+    
+
+    border-radius: 7px 7px 7px 7px;
+    border-color: #C4302B;
+    background-color: #2F80ED;
+    border-style: outset;
+    text-align: center;
+
+
+} */
 
 /* alterando a ordem da imagem com os textos em mobile */
 @media screen and (max-width: 992px){
