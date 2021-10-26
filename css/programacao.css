@@ -98,6 +98,10 @@
         min-height: 250px;
     }
 
+    #titulo-participante{
+        margin-top: 1em;
+    }
+
     .participante{
         display: flex;
         flex-direction: column;
