@@ -83,8 +83,10 @@
     text-align: center;
 }
 
-
-
+/* Espaçamento de -1 margin */
+.m-logo-top{
+    margin-top: -15px;
+}
 
 /* alterando a ordem da imagem com os textos em mobile */
 @media screen and (max-width: 992px){
