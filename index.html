@@ -197,74 +197,38 @@
           <img class=" mx-auto d-block animacao-s" src="./imagens/LogoColorida.svg" alt="Logo Jornada Colorido">
         </div>
       </div>
-    </div> 
-
-
-
-
-    
-
-
-
-
-
-    <div class="container pt-5 pb-5 mb-5">
-      <div class="row justify-content-center pt-5 pb-5">
-        <div class="col-12 d-flex flex-column align-self-center text-center animacao-t">
-         <h2>Atente-se ao período de inscrições para participar do evento!</h2>
-         <h2>As inscrições de participantes se encerrarão em:</h2>
-         <div class=" row  cronometro justify-content-center mt-5 ">
-           
-          <div class="col-lg-8 col-md-9 col-sm-9 d-flex  align-items-center justify-content-center">
-            <div class="row justify-content-around">
-              
-              <div class="col-2 px-4 d-flex flex-column align-items-center">
-                
-                <div class="tempo text-center d-flex align-items-center justify-content-center" id="dia">
-                  <p>00</p>
-                </div>
-                <p class="font-weight-bold mt-3 tempo-p sofia">DIAS</p>
-              
-              </div>
-              <div class="col-2 px-4 d-flex flex-column align-items-center">
-                <div class="tempo text-center d-flex align-items-center justify-content-center" id="horas">
-                  <p>00</p>
-                </div>
-                <p class="font-weight-bold mt-3 tempo-p sofia">HORAS</p>
-               </div>
-              <div class="col-2 px-4 d-flex flex-column align-items-center">
-                <div class="tempo text-center d-flex align-items-center justify-content-center" id="minutos">
-                  <p>00</p>
-                </div>
-                <p class="font-weight-bold mt-3 tempo-p sofia">MINUTOS</p>
-               </div>
-              <div class="col-2 px-4 d-flex flex-column align-items-center">
-                <div class="tempo text-center d-flex align-items-center justify-content-center" id="segundos">
-                  <p>00</p>
-                </div>
-                <p class="font-weight-bold mt-3 tempo-p sofia">SEGUNDOS</p>
-               </div>
-
-            </div>
-          </div>
-          
-        </div>         
-        
-        <div>
-          <button type="button" class="btn  btn-lg inscrevase mt-5"
-              onclick="window.location.href='./pages/inscrevase.html'">
-              <span class="inscrevase-text font-weight-bold sofia">ÁREA DE INSCRIÇÃO</span>
-          </button>
-        </div>
-
-      </div>
     </div>
 
-  </div>
-
+    
+      <div class="container text-white">
+        <p>Nesta 10ª edição, acontece pela primeira vez o ranqueamento dos trabalhos do Simpósio de Pós-Graduação do IFSULDEMINAS.
+          Esse ranqueamento contempla a pontuação da avaliação do resumo expandido e da apresentação do trabalho, e os principais critérios avaliados foram: Originalidade e relevância para a área, coerência entre objetivos, metodologia e resultados alcançados, estruturação fundamentada do conteúdo, qualidade e domínio na apresentação. Os quais foram avaliados de 0 a 160 pontos.
+          </p>
+          <p>
+            Neste ano foram 35 trabalhos apresentados durante os 02 dias do 10°  Simpósio de Pós-Graduação do IFSULDEMINAS, de diversas modalidades e de instituições de todo o país. E após a avaliação dos resumos expandidos, submetidos, e da apresentação, chegamos a 3 trabalhos, com melhor pontuação:
+          </p>
+          <p>
+            <strong>1º colocado</strong>, com 159 pontos, da área de Recursos Florestais e Engenharia Florestal
+            Título: AÇÃO ANTAGONISTA IN VITRO DE Trichoderma spp. SOBRE Fusarium spp.
+            Autoria: Marlove Fatima Brião Muniz; Mateus Alves Saldanha; Tales Poletto; Jaqueline Raquel Tomm Krahn; Marisa Ana Strahl
+          </p>
+          <p>
+            <strong>2º colocado</strong>, com 158 pontos, da área de Administração
+            Título: PROPOSTA DE USO DO ESPAÇO MAKER E SALA DE METODOLOGIAS ATIVAS EM CURSO TÉCNICO EM ADMINISTRAÇÃO
+            Autoria: Luiz Gustavo Mello, Lilian Vanessa Silva, Moisés Pinheiro Souza, Rosana Catarina Rodrigues de Lima
+          </p>
+          <p>
+            <strong>3º colocado</strong> , com 157 pontos, da área Educação: Tópicos Específicos de Educação
+            Título: EduCafé: proposta de sistematização de um percurso de aprendizagem sobre café
+            Autoria: Lílian Vanessa SILVA; Luiz Gustavo de MELLO; Moisés Pinheiro SOUZA; Lívia Carolina VIEIRA
+          </p>   
+          <p><strong>Parabéns a todos os envolvidos.</strong></p>
+      </div>
 </div>
 
 <!-- ------------------------------------------------------------------ -->
+
+
 <!-- ------------------------------------------------------------------ -->
 
 
@@ -657,7 +621,7 @@
 
         
 
-        <a type="button" class="assista col-3" target="_blank"
+        <a type="button" class="assista col-3 my-2" target="_blank"
               href="https://youtu.be/FW4oaOT4oYw">
               <span class="texto-preto">Assistir</span>
         </a>
@@ -677,8 +641,6 @@
           <h5 class="titulo-preto">Encerramento do Evento</h5>
           <p class="texto-opaco">Divulgação dos melhores trabalhos</p>
         </div>
-
-        
 
         <a type="button" class="assista col-3" target="_blank"
               href="https://youtu.be/PjY2nTS9OlY">
@@ -1025,28 +987,6 @@
   // cronometro
   var DataLimite = new Date("Oct 29, 2021 23:59:59").getTime();
 
-  function CalculaTempo() {
-    var agora = new Date().getTime(); // pegando o tempo de agora
-    intervalo = DataLimite - agora;
-
-    var segundos = 1000;
-    var minutos = segundos * 60;
-    var horas = minutos * 60;
-    var dias = horas * 24;
-
-    var d = Math.floor(intervalo / dias);
-    var h = Math.floor((intervalo % dias) / horas);
-    var m = Math.floor((intervalo % horas) / minutos);
-    var s = Math.floor((intervalo % minutos) / segundos);
-
-    document.getElementById("dia").innerHTML = d;
-    document.getElementById("horas").innerHTML = h;
-    document.getElementById("minutos").innerHTML = m;
-    document.getElementById("segundos").innerHTML = s;
-  }
-  setInterval(function () {
-    CalculaTempo();
-  }, 1000);
 
 
 
