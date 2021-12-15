@@ -16,6 +16,7 @@
     integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <link rel="stylesheet" href="./css/estilo.css">
   <link rel="stylesheet" href="./css/mobile.min.css">
+  <link rel="stylesheet" href="css/slide.css">
   <link rel="stylesheet" href="css/programacao.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -56,51 +57,92 @@
 
   </div>
 
-  <div id="topo">
+  
+<a id="scrollBtn"></a>
 
-    <nav class="navbar navbar-expand-lg navbar-dark pt-5">
-      <a class="navbar-brand ml-5" href="./index.html">
-        <img class="img-fluid ml-5" src="./imagens/header/Logo-Evento.svg"
-          alt="Logo 13° Jornada Científica e Tecnológica 10° Simpósio de Pós-Graduação IFSULDEMINAS 2021">
-      </a>
-      <button type="button" class="navbar-toggler" aria-label="toggler" data-toggle="collapse"
-        data-target="#navbarCollapse">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <!-- Collection of nav links, forms, and other content for toggling -->
-      <div id="navbarCollapse" class="collapse navbar-collapse justify-content-end">
-        <div class="navbar-nav ml-2 mr-4">
-          <!-- <p class="nav-item nav-link text-white active font-weight-bold">Início</p> -->
-          <a href="#sobre-evento" class="nav-item nav-link text-white smooth-goto">Sobre o Evento</a>
-          <a href="#palestrantes" class="nav-item nav-link text-white">Palestrantes</a>
-          <a href="./pages/cronograma.html" class="nav-item nav-link text-white">Cronograma</a>
-          <a href="./pages/downloads.html" class="nav-item nav-link text-white">Download</a>
-          <a href="./pages/normas.html" class="nav-item nav-link text-white">Normas de Envio</a>
-          <a href="./pages/duvidas.html" class="nav-item nav-link text-white">Dúvidas</a>
-        </div>
-
-      </div>
-
-    </nav>
-
-    <a id="scrollBtn"></a>
-
-    <header class="container text-center">
-
-      <div class="row d-flex flex-column justify-content-between animacao-l">
-        <div class="col-lg-12 col-md-12 col-sm-12 align-items-center" id="titulo-header">
-          <p class="text-white" id="titulo">Sua jornada começa aqui.</p>
-          <!-- <p class="mt-3 h5">25 a 29 de Outubro. Evento Online e Gratuito.</p> -->
-          <button type="button" class="btn  btn-lg inscrevase mt-3"
-            onclick="window.location.href='#Ranqueamento'">
-            <span class="inscrevase-text font-weight-bold sofia">Melhores trabalhos do 10º Simpósio de Pós-graduação</span>
+<!-- CARROSEL -->
+<div class="slide">
+  <div class="slides">
+    <div id="voltar" class="btn-slider">a</div>
+    <div id="next" class="btn-slider">b</div>
+    
+    <div id="atual" class="image Home-image">
+      <div class="menu-nav">
+        <nav class="navbar navbar-expand-lg navbar-dark pt-5">
+          <a class="navbar-brand ml-5" href="./index.html">
+            <img class="img-fluid ml-5" src="./imagens/header/Logo-Evento.svg"
+              alt="Logo 13° Jornada Científica e Tecnológica 10° Simpósio de Pós-Graduação IFSULDEMINAS 2021">
+          </a>
+          <button type="button" class="navbar-toggler" aria-label="toggler" data-toggle="collapse"
+            data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
           </button>
+          <!-- Collection of nav links, forms, and other content for toggling -->
+          <div id="navbarCollapse" class="collapse navbar-collapse justify-content-end">
+            <div class="navbar-nav ml-2 mr-4">
+              <a href="#sobre-evento" class="nav-item nav-link text-white smooth-goto">Sobre o Evento</a>
+              <a href="#palestrantes" class="nav-item nav-link text-white">Palestrantes</a>
+              <a href="./pages/cronograma.html" class="nav-item nav-link text-white">Cronograma</a>
+              <a href="./pages/downloads.html" class="nav-item nav-link text-white">Download</a>
+              <a href="./pages/normas.html" class="nav-item nav-link text-white">Normas de Envio</a>
+              <a href="./pages/duvidas.html" class="nav-item nav-link text-white">Dúvidas</a>
+            </div>
+          </div>
+        </nav>
+        <div class="container text-center">
+          <header>
+            <div class="row d-flex flex-column justify-content-between animacao-l">
+              <div class="col-lg-12 col-md-12 col-sm-12 align-items-center" id="titulo-header">
+                <p class="text-white" id="titulo">Sua jornada começa aqui.</p>
+                <a class="btn  btn-lg inscrevase mt-3" href='#Ranqueamento'>
+                <span class="inscrevase-text font-weight-bold sofia">Melhores trabalhos do 10º Simpósio de Pós-Graduação</span>
+              </a>
+              </div>
+            </div>
+          </header>
+          <!-- fim header -->
         </div>
       </div>
+    </div>
 
-    </header>
+        <div id="atual" class="image Certificado">
+          <div class="menu-nav">
+            <nav class="navbar navbar-expand-lg navbar-dark pt-5">
+              <a class="navbar-brand ml-5" href="./index.html">
+                <img class="img-fluid ml-5" src="./imagens/header/Logo-Evento.svg"
+                  alt="Logo 13° Jornada Científica e Tecnológica 10° Simpósio de Pós-Graduação IFSULDEMINAS 2021">
+              </a>
+              <button type="button" class="navbar-toggler" aria-label="toggler" data-toggle="collapse"
+                data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <!-- Collection of nav links, forms, and other content for toggling -->
+              <div id="navbarCollapse" class="collapse navbar-collapse justify-content-end">
+                <div class="navbar-nav ml-2 mr-4">
+                  <a href="#sobre-evento" class="nav-item nav-link text-white smooth-goto">Sobre o Evento</a>
+                  <a href="#palestrantes" class="nav-item nav-link text-white">Palestrantes</a>
+                  <a href="./pages/cronograma.html" class="nav-item nav-link text-white">Cronograma</a>
+                  <a href="./pages/downloads.html" class="nav-item nav-link text-white">Download</a>
+                  <a href="./pages/normas.html" class="nav-item nav-link text-white">Normas de Envio</a>
+                  <a href="./pages/duvidas.html" class="nav-item nav-link text-white">Dúvidas</a>
+                </div>
+              </div>
+            </nav>
+          </div>
+              <div class="degrade-azul">
+                <div class="container text-certificado">
+                  <h4><strong>O evento ainda não terminou.</strong></h4>
+                  <p>Fique de olho no seu email. Você que participou da 13ª Jornada Científica e Tecnológica e do 10º Simpósio de Pós-Graduação do IFSULDEMINAS 2021, irá receber um certificado nos próximos dias.</p>
+                </div>
+              </div>
+        </div>
   </div>
-  <!-- fim topo -->
+  <!-- Bolinhas de paginacao da img -->
+  <div class="balls"></div>
+</div>
+
+<!-- FIM carrosel -->
+
 
   <div class="instituicoes py-5 ">
     <div class="container  ">
@@ -984,9 +1026,70 @@
   });
 
 
-  // cronometro
-  var DataLimite = new Date("Oct 29, 2021 23:59:59").getTime();
+  // // cronometro
+  // var DataLimite = new Date("Oct 29, 2021 23:59:59").getTime();
 
+  /* Carrosel */
+  var balls = document.querySelector('.balls');
+        var qtd = document.querySelectorAll(".slides .image");
+        var atual = 0;
+        var imagem = document.getElementById("atual");
+        var next = document.getElementById("next");
+        var voltar = document.getElementById("voltar");
+        var rolar= true;
+
+        for(let i=0;i<qtd.length;i++){
+            var div = document.createElement("div");
+            div.id= i;
+            balls.appendChild(div);
+        }
+        document.getElementById('0').classList.add("imgAtual");
+        var pos = document.querySelectorAll(".balls div");
+
+        for(let i=0;i<pos.length;i++){
+            pos[i].addEventListener('click', ()=>{
+                atual = pos[i].id;
+                rolar = false;
+                slide();
+            })
+        }
+        
+        voltar.addEventListener('click', ()=>{
+            atual--;
+            rolar = false;
+            slide();
+        })
+
+        next.addEventListener('click', ()=>{
+            atual++;
+            rolar = false;
+            slide();
+        })
+
+        function slide(){
+            if(atual >= qtd.length){
+                atual = 0;
+            }else if(atual < 0){
+                atual = qtd.length - 1;
+            }
+            document.querySelector(".imgAtual").classList.remove("imgAtual");
+            var altura = window. screen. height;
+            var largura = window. screen. width;
+            console.log("W: "+ largura);
+            imagem.style.marginLeft = -largura * atual + 'px';
+            document.getElementById(atual).classList.add('imgAtual');
+            // console.log("ID: "+ atual);
+        }
+
+
+        setInterval(() => {
+            if(rolar){
+                atual++;
+                slide();
+            }else{
+                rolar=true;
+            }
+        },7000);
 
 
 
